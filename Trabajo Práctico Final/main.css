@@ -15,7 +15,6 @@ body {
 img {
     max-width: 100%;
 }
-/*max- width: 1200px*/
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -92,13 +91,6 @@ img {
     padding: 20px;
     min-width: 400px;
 }
-/*table {
-    width: 100%;
-}
-
-th, td{
-    color: #ffffff;
-}*/
 
 .borrar {
     background-color: #9bce21;
@@ -285,27 +277,13 @@ tr {
 .box {
     display: inline-block;
 }
-/*
-.box img {
-    height:  200px;
-}
 
-.products-txt h3 {
-    font-size: 20px;
-    color: #111419;
-    margin-bottom: 10px;
-}*/
 
 .products-txt td {
     margin-bottom: 25px;
     color: #515557;
 }
-/*
-.precio {
-    font-size: 17px;
-    font-weight: 700;
-    color: #ff9100;
-}*/
+
 
 .btn-2, .btn-3 {
     background-color: #9bce21;
