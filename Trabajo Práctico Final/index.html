@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>julian html-1</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="menu container">
+                <a href="#" class="logo">logo</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="images-20240520T011805Z-001/images/menu.png" class="menu-icono" alt="menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#" onclick="redireccion()">Agregar producto</a></li>
+                        <li><a href="#">servicios</a></li>
+                        <li><a href="#">productos</a></li>
+                        <li><a href="#">contacto</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img id="img-carrito" src="images-20240520T011805Z-001/images/car.svg" alt="car">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>imagen</th>
+                                            <th>nombre</th>
+                                            <th>precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-content container">
+                <div class="header-txt">
+                    <span>Bienvenido a nuestra tienda</span>
+                    <h1>Ofertas especiales</h1>
+                    <p>
+                        Descubre una oferta especial única: disfruta de productos seleccionados con descuentos exclusivos. No te pierdas la oportunidad de explorar nuevas experiencias y satisfacer tus deseos con nuestras promociones imperdibles
+                    </p>
+                    <div class="butons">
+                        <a href="#" class="btn-1">informacion</a>
+                        <a href="#" class="btn-1">leer mas</a>
+                    </div>
+                </div>
+                <div class="header-img">
+                    <img src="images-20240520T011805Z-001/images/bag.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <section class="oferts container">
+
+            <div class="oferts-1 b1">
+                <div class="oferts-txt">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <a href="#">leer mas</a>
+                </div>
+                <div class="oferts-img">
+                    <img src="images-20240520T011805Z-001/images/s1.png" alt="">
+                </div>
+            </div>
+            <div class="oferts-1 b2">
+                <div class="oferts-txt">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <a href="#">leer mas</a>
+                </div>
+                <div class="oferts-img">
+                    <img src="images-20240520T011805Z-001/images/s2.png" alt="">
+                </div>
+            </div>
+            <div class="oferts-1 b3">
+                <div class="oferts-txt">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <a href="#">leer mas</a>
+                </div>
+                <div class="oferts-img">
+                    <img src="images-20240520T011805Z-001/images/s3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <main class="products container">
+            <h2>productos</h2>
+
+            <div class="box-comtainer">
+                <div id="resultados"></div>
+                <div id="editar-producto" style="display: none;">
+                    <h2>Editar Producto</h2>
+                    <form id="form-editar">
+                        <input type="hidden" id="edit-idcod">
+                        <label for="edit-titulo">Título:</label>
+                        <input type="text" id="edit-titulo" required>
+                        <label for="edit-precioPeso">Precio AR$:</label>
+                        <input type="text" id="edit-precioPeso" required>
+                        <label for="edit-precioDolar">Precio U$D:</label>
+                        <input type="text" id="edit-precioDolar" required>
+                        <label for="edit-fecha">Fecha:</label>
+                        <input type="date" id="edit-fecha" required>
+                        <button type="button" onclick="guardarEdicion()">Guardar Cambios</button>
+                    </form>
+                </div>
+            
+            </div>
+        </main>
+
+        <section class="testimonial container">
+            <span>testimoniales</span>
+            <h2> Que opinan nuestros clientes</h2>
+            <div class="testimonial-content">
+                <div class="testimonial-1">
+                    <p>
+                        ¡Este helado es simplemente delicioso! La textura cremosa y el sabor intenso a chocolate lo convierten en un verdadero placer para el paladar. Además, me encanta que esté hecho con ingredientes naturales y de alta calidad. ¡Definitivamente se ha convertido en mi helado favorito!
+                    </p>
+                    <img src="images-20240520T011805Z-001/images/starts.png" alt="">
+                    <h4>Sofía García</h4>
+                </div>
+                <div class="testimonial-1">
+                    <p>
+                        Esta salsa de tomate es increíble. Tiene un sabor fresco y auténtico que realmente resalta en cualquier plato. Además, el hecho de que sea orgánica y esté hecha con ingredientes de origen local la hace aún más especial. ¡Es la mejor salsa de tomate que he probado!
+                    </p>
+                    <img src="images-20240520T011805Z-001/images/starts.png" alt="">
+                    <h4>Mateo Ramírez</h4>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content container">
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>

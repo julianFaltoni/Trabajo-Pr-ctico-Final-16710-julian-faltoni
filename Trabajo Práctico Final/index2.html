@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>index2</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images-20240520T011805Z-001/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" onclick="redireccion2()">inicio</a></li>
+                   <!--<button onclick="Mostrar('Nuevo-producto')">Nuevo producto</button>-->
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <!--id="Nuevo-producto" style="display:none;"-->
+    <main class="products container">
+        <div>
+            <h1>Nuevo producto</h1>
+            <form action="javascript:none">
+                <input type="text" id="titulo" placeholder="Ingrese un titulo"> 
+                <br>
+                <input type="number" id="precioPeso" placeholder="Ingrese un precio Peso">
+                <br>
+                <input type="number" id="precioDolar" placeholder="Ingrese un precio Dolar">
+                <br>
+                <input type="date" id="fecha">
+                <br>
+                <button type="button" onclick="CrearNuevoProducto()">Crear producto</button> 
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+            <div class="footer-content container">
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
